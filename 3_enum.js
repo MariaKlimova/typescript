@@ -8,6 +8,7 @@ var membership = Membership.Standart;
 console.log(membership); // выведет 1
 var membershipReverse = Membership[2];
 console.log(membershipReverse); //выведет Premium
+//Можем задать и свои значения
 var SocialMedia;
 (function (SocialMedia) {
     SocialMedia["VK"] = "VK";
@@ -15,4 +16,4 @@ var SocialMedia;
     SocialMedia["INSTAGRAM"] = "INSTAGRAM";
 })(SocialMedia || (SocialMedia = {}));
 var social = SocialMedia.INSTAGRAM;
-console.log(social);
+console.log(social); //Выведет INSTAGRAM
